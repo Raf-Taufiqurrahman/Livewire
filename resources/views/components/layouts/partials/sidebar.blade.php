@@ -7,7 +7,7 @@
                 <i class="fa fa-circle-notch text-primary"></i>
             </span>
             <span class="smini-hide fs-5 tracking-wider">
-                JurnalKoding
+                Point of Sales
             </span>
         </a>
         <!-- END Logo -->
