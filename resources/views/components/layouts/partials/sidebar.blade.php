@@ -21,9 +21,16 @@
             <ul class="nav-main">
                 <li class="nav-main-heading">DASHBOARD</li>
                 <li class="nav-main-item">
-                    <a class="nav-main-link" href="">
+                    <a class="nav-main-link" href="{{ route('apps.dashboard') }}" wire:navigate>
                         <i class="nav-main-link-icon fa fa-layer-group"></i>
                         <span class="nav-main-link-name">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-main-heading">MASTER DATA</li>
+                <li class="nav-main-item">
+                    <a class="nav-main-link {{ Route::is('apps.categories.index') ? 'active' : '' }}" href="{{ route('apps.categories.index') }}" wire:navigate>
+                        <i class="nav-main-link-icon fa fa-folder"></i>
+                        <span class="nav-main-link-name">Kategori</span>
                     </a>
                 </li>
             </ul>
